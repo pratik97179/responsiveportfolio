@@ -811,11 +811,14 @@ img{
 
 .testimonial__data,
 .testimonial__header {
-    display: flex;
+    display: flex;  
 }
 
 .testimonial__data {
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    /*Styles below this comment are to be included*/
+    /* justify-content: space-around; */
     margin-bottom: var(--mb-1);
 }
 
